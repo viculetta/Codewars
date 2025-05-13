@@ -1,0 +1,5 @@
+def abbrev_name(name):
+#    return [x for x in name if x.isupper()]
+
+    newList = name.split()
+    return f"{(newList[0][0]).upper()}.{(newList[1][0]).upper()}"  
