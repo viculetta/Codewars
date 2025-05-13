@@ -1,0 +1,6 @@
+def find_needle(haystack):
+    index = haystack.index('needle')
+    if index >= 0:
+        return(f"found the needle at position {index}")
+    else:
+        return("Element not found.")
